@@ -116,7 +116,7 @@ if %continue%==N goto Quit
 color 03
 cls
 echo.
-echo MinecraftQuizGame.docx
+echo Minecraft Quiz
 echo ====================
 echo. Welcome %name% the current date is.....
 type date.txt
