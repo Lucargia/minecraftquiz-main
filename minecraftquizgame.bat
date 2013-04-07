@@ -98,23 +98,8 @@ echo        [Connected!]
 echo.
 echo ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
 ping localhost -n 2.5 >nul
-goto check
-
-:check
-echo Detecting files
-if exist questions.txt goto check2
-echo Could not detect questions file!
-echo Please re download the program
-pause
-exit
-
-:check2
-if exist proofofdownload.bat goto run
-:run
-cls
-echo Checking complete!
-echo You may now continue!
 goto startmain2
+
 :startmain2
 echo What is your name?
 set /p name=
