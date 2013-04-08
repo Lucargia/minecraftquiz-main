@@ -16,7 +16,7 @@ if %letter% == 2 goto help
 if %letter% == 3 goto exit
 :help
 cls
-echo CONTROLLS
+echo CONTROLS
 echo.
 echo A: LEFT
 echo S: DOWN
