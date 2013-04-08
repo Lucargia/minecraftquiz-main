@@ -22,7 +22,7 @@ echo A: LEFT
 echo S: DOWN
 echo D: RIGHT
 echo W: UP
-echo T: USE DYNAMITE (ONLY ON LEVEL 3)
+echo T: USE DYNAMITE (ONLY ON LEVEL 3!)
 echo.
 echo OBJECTS:
 echo -1 = A SPIKEWALL, LOOK OUT FOR THIS.
